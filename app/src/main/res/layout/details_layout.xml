@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#311367">
+
+
+    <androidx.cardview.widget.CardView
+    android:id="@+id/d1"
+    android:layout_width="match_parent"
+    android:layout_marginTop="-40dp"
+    android:layout_height="290dp"
+    android:layout_marginBottom="15dp"
+    app:cardCornerRadius="50dp"
+    app:cardBackgroundColor="@color/black"
+    >
+
+
+        <ImageView
+        android:id="@+id/imagePoki"
+        android:layout_width="148dp"
+        android:layout_height="154dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        />
+
+
+
+</androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/textViewNameP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="260dp"
+        android:gravity="center"
+        android:text="poki"
+        android:textSize="32dp"
+        android:textStyle="bold"
+
+        ></TextView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/d8"
+
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginBottom="15dp"
+        app:cardBackgroundColor="#7939EC"
+        app:cardCornerRadius="50dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="Height"
+            android:textSize="25dp"
+
+
+            ></TextView>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewHeightP"
+            android:textColor="@color/white"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="Heightp"
+            android:textSize="25dp"
+
+
+            ></TextView>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/d9"
+
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginBottom="15dp"
+        app:cardBackgroundColor="#7939EC"
+        app:cardCornerRadius="50dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/white"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="Weight"
+            android:textSize="25dp"></TextView>
+    <TextView
+        android:id="@+id/textViewWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Weightp"
+        android:textSize="25dp"></TextView>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
